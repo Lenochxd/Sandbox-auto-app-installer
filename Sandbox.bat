@@ -36,6 +36,4 @@ echo EXIT >> winget.bat
 
 REM:: (This Starts your Sandbox from the host)
 cd "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\"
-"Windows Sandbox.lnk"
-
-
+"%windir%\system32\WindowsSandbox.exe"
